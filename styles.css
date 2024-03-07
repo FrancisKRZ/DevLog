@@ -1,0 +1,128 @@
+/* set body margin to 0 */
+body {
+    margin: 12;
+  }
+  
+  /* style the main heading */
+  h1 {
+    text-align: center;
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* style the section headings */
+  h2 {
+    background-color: #219ebc;
+    color: white;
+    padding: 10px;
+  }
+  
+  /* style the table */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* style table header cells */
+  th {
+    background-color: #023047;
+    color: white;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* style table data cells */
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* alternate table row background color */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* style form labels */
+  form label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  /* style form input fields */
+  form input[type=text], 
+  form input[type=email], 
+  form input[type=date], 
+  form textarea {
+    width: 300px;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    
+  }
+  
+  /* style form checkbox */
+  form input[type=checkbox] {
+    margin-bottom: 10px;
+  }
+  
+  /* style form buttons */
+  form input[type=submit], 
+  form input[type=button] {
+    background-color: #023047;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  form input[type=submit]:hover, 
+  form input[type=button]:hover {
+    background-color: #0077b6;
+  }
+  
+  /* style remove button */
+  button {
+    background-color: #900c3f;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c70039;
+  }
+  
+  footer {
+    background-color: #023047;
+    color: #fff;
+    padding: 18px;
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+/*  Footer  */
+footer p {
+    margin: 0;
+}
+
+footer a:link {
+  color: white !important;
+  background: #023047;
+}
+
+footer a:visited {
+  color: white !important;
+  background: #023047;
+}
+
+footer a:hover {
+  color: #c70039 !important;
+  background: #023047;
+}
